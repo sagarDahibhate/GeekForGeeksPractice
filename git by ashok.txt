@@ -1,0 +1,68 @@
+important git commands 
+===========================
+
+init
+clone
+add
+status
+commit
+push
+pull
+checkout
+reset
+log
+rm
+branch
+merge
+rebase
+stash
+
+
+git help --> it provides frequently used serveral git commands
+
+git help <command name>  it opens documentatin of that particular command
+
+git init -->   it is used to create empty pr re-initalie existing repo , just we are making this folder as git folder
+
+git status --> if  you want to commit any file first  you need to track the files . to track the tiles we can see the status of tracked untraced stages unstaged files
+
+Staged file -> file which are added and they aer ready to commit . (Green color)
+
+Un-Staged files ->  modified files will be displayed here ,we need to stage these files to commit (Red color)
+
+Un-Traced files ->  newly created files , we need to stage them to commit (Red color)
+
+git add --> to stage files  or add files
+
+git add --a     to stage all files 
+
+git rm cached <file name> to unstage newly created files
+
+git commit -m "message"   --> commited to local repo not central repo
+
+git commit --> push our staged files to local repository 
+
+
+---------------------------------------------------------
+1 git remote add <repo url > (only first time req.)
+
+2 git push -u origin  master ( used to move local repo changes to central)
+
+3 git restore --staged <file name>   used to unstage the file 
+
+4 git reset HEAD <file name>  used to unstage the file 
+
+5 git restore  (discard the changes form local )
+
+6 git checkout  (discard the changes form local )
+
+7 git status   to know status of files 
+
+8 git log   --- will display all detail history of commits from initial to recent commit ( commit id ,  author name ,  timestamp  , commit msg)
+
+9 git clone   to make clone of existing central repo to our local repo  then we can work on that existing repo.
+
+10  git pull  	TO take latest code form central repo / udpate our local repo with central repo.
+
+
+									
