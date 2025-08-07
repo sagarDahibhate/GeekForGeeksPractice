@@ -41,6 +41,9 @@ public class Test {
 		default:
 			System.out.println("wrong choice");
 			break;
+			
+			
+			
 		}
 
 	}
