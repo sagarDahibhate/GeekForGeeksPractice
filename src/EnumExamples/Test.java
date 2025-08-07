@@ -34,6 +34,8 @@ public class Test {
 		case FRIDAY:
 			System.out.println("FRIDAY are bad");
 			break;
+			
+			
 		case SATURDAY:
 			System.out.println("SATURDAY are bad");
 			break;
